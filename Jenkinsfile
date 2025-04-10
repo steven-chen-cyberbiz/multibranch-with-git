@@ -6,12 +6,5 @@ pipeline {
         echo "hello"
       }
     }
-    stage('cat README') {
-      steps {
-        sh '''
-          cat README.md
-        '''
-      }
-    }
   }
 }
